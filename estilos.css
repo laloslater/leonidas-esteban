@@ -1,0 +1,233 @@
+body {
+	font-family: 'Didact Gothic', sans-serif;
+	margin: 0px;
+}
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: normal;
+}
+h1 {
+	font-size: 40px;
+	line-height: 1.5;
+	letter-spacing: -0.2px;
+	color: white;
+	margin: 0;
+}
+h1 strong {
+	color: #026fff;
+	font-size: 58px;
+}
+h2 {
+	color: #026fff;
+	text-transform: uppercase;
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	margin: 40px;
+}
+.hero {
+	height: 400px;
+	background-color: #1d252c;
+	/* background-image:  url('../images/hero.jpg');
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right; */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header {
+	height: 70px;
+	background-color: #1d252c;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu {
+	height: inherit;
+}
+.header ol {
+	display: flex;
+	height: inherit;
+}
+.header ol li {
+	height: inherit;
+}
+.header a {
+	color: white;
+	text-decoration: none;
+	height: inherit;
+	align-items: center;
+	display: flex;
+	padding: 0 10px;
+}
+.portfolio {
+	background: #fafafa;
+	padding: 20px;
+}
+.project-title {
+	font-size: 30px;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+.project-course,
+.project-date,
+.projecto-url {
+	margin: 10px 0;
+}
+.project-description {
+	font-size: 20px;
+	font-weight: bolder;
+}
+.project strong {
+	font-family: 'Fjalla One', sans-serif;
+}
+.project {
+	border-color: #808080;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 10px;
+	margin: 10px 10px;
+	padding: 20px;
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+article figure {
+	margin: 0px;
+}
+.experience {
+	border: 0px solid gray;
+	margin: 10px 10px;
+	width: 480px;
+	border-radius: 10px;
+	overflow: hidden;
+	background: #f5f4ff;
+}
+.exp-list {
+	background: #fafafa;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.experience img {
+	width: 480px;
+	height: 200px;
+	object-fit: cover;
+}
+.experience-detail {
+	border: 1px;
+	border-radius: 12px;
+	margin: 20px;
+	margin-top: -60px;
+	background-color: white;
+	position: relative;
+	padding: 24px;
+	text-align: center;
+}
+.experience-url {
+	color: #026fff;
+	border: 1px solid #026fff;
+	/* el color del border asimila el color
+    del texto (color) por lo tanto podriamos quitar 
+    el mismo del border  */
+	align-items: center;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 10px 40px;
+}
+.project-details {
+	width: 500px;
+}
+.footer {
+	color: white;
+	display: flex;
+	background-color: #1d252c;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer img {
+	vertical-align: middle;
+}
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+.footer p {
+	margin: 0px 20px;
+	padding: 20px;
+	align-items: center;
+}
+.contact {
+	background: rgb(176, 185, 194);
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.social-link {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0 10px;
+	background-size: 50px;
+}
+.social-link.twitter {
+	background-image: url('../images/twitter.svg');
+}
+.social-link.facebook {
+	background-image: url('../images/facebook.svg');
+}
+.social-link.github {
+	background-image: url('../images/github.svg');
+}
+.social-link.instagram {
+	background-image: url('../images/instagram.svg');
+}
+.form-email input {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: gray;
+	padding: 5px 30px;
+	background-image: url('../images/envelope.svg');
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: 5px;
+}
+.form-email button {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: gray;
+}
+.container {
+	width: 1000px;
+	margin: auto;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	height: inherit;
+	flex-wrap: inherit;
+}
+
+#design {
+	text-decoration: underline;
+}
+
+.logo {
+	margin: 0;
+}
